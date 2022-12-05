@@ -1,0 +1,36 @@
+|ERROR|2022-09-23 13:20:39,582|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-09-23 13:20:39,582|URL: https://api-demo.fxcm.com:443/trading/get_model?models=ClosedPosition
+|ERROR|2022-09-23 13:20:39,582|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer AHQQmDhPTfVA1rjQB6_824d263019015c33efcde50d0330776e2adc6f3bc', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-09-23 13:20:39,582|Params: {'models': ['ClosedPosition']}
+|ERROR|2022-09-23 13:20:39,582|Bearer token: Bearer AHQQmDhPTfVA1rjQB6_824d263019015c33efcde50d0330776e2adc6f3bc
+|ERROR|2022-09-23 13:20:39,582|Connection status: established
+|ERROR|2022-09-23 13:20:39,877|Socket session id: AHQQmDhPTfVA1rjQB6_8
+|ERROR|2022-09-23 13:20:39,877|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2022-09-23 13:28:44,704|Socket returns unknown error.
+|ERROR|2022-09-23 14:19:42,024|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-09-23 14:19:42,025|URL: https://api-demo.fxcm.com:443/candles/1/m1?num=10&from=1593561600&to=1596153600
+|ERROR|2022-09-23 14:19:42,025|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-09-23 14:19:42,026|Params: {'num': 10, 'from': 1593561600, 'to': 1596153600}
+|ERROR|2022-09-23 14:19:42,026|Bearer token: Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc
+|ERROR|2022-09-23 14:19:42,026|Connection status: established
+|ERROR|2022-09-23 14:19:42,026|Socket session id: Q1DVJOJlLJGAfQsPAwTg
+|ERROR|2022-09-23 14:19:42,026|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2022-09-23 14:20:12,703|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-09-23 14:20:12,703|URL: https://api-demo.fxcm.com:443/candles/1/m1?num=10&from=1593561600&to=1594339200
+|ERROR|2022-09-23 14:20:12,704|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-09-23 14:20:12,704|Params: {'num': 10, 'from': 1593561600, 'to': 1594339200}
+|ERROR|2022-09-23 14:20:12,704|Bearer token: Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc
+|ERROR|2022-09-23 14:20:12,704|Connection status: established
+|ERROR|2022-09-23 14:20:12,705|Socket session id: Q1DVJOJlLJGAfQsPAwTg
+|ERROR|2022-09-23 14:20:12,705|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2022-09-23 14:20:30,921|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-09-23 14:20:30,921|URL: https://api-demo.fxcm.com:443/candles/1/m1?num=10&from=1593561600&to=1593648000
+|ERROR|2022-09-23 14:20:30,922|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-09-23 14:20:30,922|Params: {'num': 10, 'from': 1593561600, 'to': 1593648000}
+|ERROR|2022-09-23 14:20:30,922|Bearer token: Bearer Q1DVJOJlLJGAfQsPAwTg24d263019015c33efcde50d0330776e2adc6f3bc
+|ERROR|2022-09-23 14:20:30,922|Connection status: established
+|ERROR|2022-09-23 14:20:30,922|Socket session id: Q1DVJOJlLJGAfQsPAwTg
+|ERROR|2022-09-23 14:20:30,923|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2022-09-23 14:24:00,409|Socket returns unknown error.
+|ERROR|2022-09-23 14:24:24,731|Socket returns unknown error.
+|ERROR|2022-09-23 14:26:42,253|Connection error: HTTPSConnectionPool(host='api-demo.fxcm.com', port=443): Read timed out. (read timeout=5)
